@@ -18,6 +18,9 @@ idades = (21, 84, 53, 12, 90, 1)
 print(max(idades))
 print(min(idades))
 print(sum(idades))
+print(sum(idades)/len(idades))
+media = sum(idades)/len(idades)
+print(media)
 
 
 

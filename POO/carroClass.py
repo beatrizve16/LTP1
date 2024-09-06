@@ -17,7 +17,7 @@ class Carro(): #metodo contrutor
         return self.modelo
 
     def setCor(self, novaCor):
-        self.cor = self.cor
+        self.cor = novaCor
 
     def getCor(self):
         return self.cor

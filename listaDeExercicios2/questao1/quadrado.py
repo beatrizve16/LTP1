@@ -1,0 +1,10 @@
+import turtle
+from forma import Forma
+
+class Quadrado(Forma):
+    def desenhar(self):
+        t = turtle.Turtle()
+        for _ in range(4):
+            t.forward(100)
+            t.right(90)
+        turtle.done()
